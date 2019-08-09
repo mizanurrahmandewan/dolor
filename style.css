@@ -1,0 +1,94 @@
+.main {
+  margin: 100px auto;
+  height: 345px;
+  width: 690px;
+  background-image: linear-gradient(130deg, yellow, red 70%);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main_sub {
+  margin: 0 auto;
+  height: 210px;
+  width: 440px;
+  background: #fff;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+}
+.left {
+  height: 160px;
+  width: 160px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 166, 0, 0.7),
+      rgba(255, 0, 0, 0.7) 70%
+    ),
+    url(./img/meax.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 25px 0 0 -30px;
+  box-shadow: 6px 9px 4px rgba(255, 0, 0, 0.322);
+}
+.middle {
+  float: right;
+  width: 233px;
+  height: 130px;
+
+  margin-top: -140px;
+  margin-right: 32px;
+}
+p {
+  font-size: 9px;
+  color: gray;
+}
+.readMore {
+  text-transform: uppercase;
+  padding: 5px;
+  background-image: linear-gradient(130deg, orange, red 70%);
+
+  width: 80px;
+  height: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  font-size: 8px;
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 13px;
+}
+h5 {
+  display: block;
+  margin-top: -3px;
+  margin-bottom: 1px;
+}
+.right {
+  float: right;
+  height: 45px;
+  width: 10px;
+
+  margin-top: -94px;
+  margin-right: 10px;
+}
+.one {
+  height: 18px;
+  width: 6px;
+  background: orangered;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.two {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: grey;
+  margin-bottom: 5px;
+}
+.three {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: grey;
+}
